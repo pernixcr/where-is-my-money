@@ -6,6 +6,9 @@ module NavigationHelpers
     when /^the home\s?page$/
       '/'
 
+    when /^the profile page of "(.+)"$/
+      my_profile_path
+
      else
       begin
         page_name =~ /^the (.*) page$/

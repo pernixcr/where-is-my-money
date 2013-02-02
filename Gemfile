@@ -23,7 +23,7 @@ group :assets do
 end
 
 group :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~>2.12.2'
   gem 'cucumber-rails'
   gem 'cucumber-websteps'
   gem 'database_cleaner'
